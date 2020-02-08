@@ -1,20 +1,13 @@
 {
-  "name": "gatsby-plugin-extract-schema",
+  "name": "@jfrolich/gatsby-plugin-extract-schema",
   "version": "0.0.4",
   "description": "Extract Gatsby's generated graphql schema to a JSON file",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NickyMeuleman/gatsby-plugin-extract-schema.git"
+    "url": "git+https://github.com/jfrolich/gatsby-plugin-extract-schema.git"
   },
-  "keywords": [
-    "gatsby",
-    "gatsby-plugin",
-    "lint",
-    "eslint",
-    "graphql",
-    "query"
-  ],
+  "keywords": ["gatsby", "gatsby-plugin", "lint", "eslint", "graphql", "query"],
   "author": "Nicky Meuleman",
   "license": "MIT",
   "bugs": {
@@ -22,7 +15,7 @@
   },
   "homepage": "https://github.com/NickyMeuleman/gatsby-plugin-extract-schema#readme",
   "peerDependencies": {
-    "gatsby": ">2.0.0-beta",
+    "gatsby": "^2.0.0",
     "babel-eslint": ">8.0.0",
     "eslint": ">4.0.0",
     "eslint-plugin-graphql": ">2.0.0"
